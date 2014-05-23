@@ -22,3 +22,8 @@ with:
 ```
 brew install keithbsmiley/formulae/tmux
 ```
+
+## oclint
+
+This spec is pulled directly from [this
+PR](https://github.com/Homebrew/homebrew/pull/28724)
