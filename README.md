@@ -27,3 +27,7 @@ brew install keithbsmiley/formulae/tmux
 
 This spec is pulled directly from [this
 PR](https://github.com/Homebrew/homebrew/pull/28724)
+
+## gh
+
+See [gh](https://github.com/Keithbsmiley/gh)
