@@ -6,6 +6,7 @@ class Gh < Formula
 
   def install
     bin.install Dir['gh*']
+    zsh_completion.install '_gh'
   end
 
   test do
