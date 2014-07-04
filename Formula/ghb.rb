@@ -6,6 +6,7 @@ class Ghb < Formula
 
   def install
     bin.install Dir['ghb*']
+    bin.install Dir['helpers']
     zsh_completion.install '_ghb'
   end
 
