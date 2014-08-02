@@ -20,7 +20,7 @@ behavior. Since the tmux formula exists in the master formula install
 with:
 
 ```
-brew install keithbsmiley/formulae/tmux
+brew install tmux-move-patch
 ```
 
 ## oclint
