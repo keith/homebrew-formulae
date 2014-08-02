@@ -6,6 +6,10 @@ Some homebrew formula for distribution or fixes
 brew tap Keithbsmiley/formulae
 ```
 
+## marooned
+
+See [marooned](https://github.com/Keithbsmiley/marooned/)
+
 ## tmux
 In tmux 1.9a there was [a
 patch](http://sourceforge.net/p/tmux/tickets/97/) that changes the way
