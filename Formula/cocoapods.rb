@@ -3,7 +3,7 @@ require "formula"
 class Cocoapods < Formula
   homepage "https://github.com/Keithbsmiley/cocoapods/"
   url "http://keithbsmiley.github.io/CocoaPods/cocoapods-0.34.1.tar.gz"
-  sha1 "c2cfb09a4b939b51352c07c99b61689f7b5aca5f"
+  sha1 "fe39777dbc170fe03e556618fe62f6a9e30fd63b"
 
   depends_on "xcproj" => :recommended
 
