@@ -35,3 +35,9 @@ PR](https://github.com/Homebrew/homebrew/pull/28724)
 ## ghb
 
 See [ghb](https://github.com/Keithbsmiley/ghb)
+
+## CocoaPods
+
+This is a unofficial homebrew installation path for
+[CocoaPods](https://github.com/CocoaPods/CocoaPods) which is typically
+distributed as a RubyGem. This is manually kept in sync with releases.
