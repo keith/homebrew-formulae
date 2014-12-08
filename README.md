@@ -47,3 +47,7 @@ distributed as a RubyGem. This is manually kept in sync with releases.
 This is an unofficial homebrew installation path for
 [xcpretty](https://github.com/supermarin/xcpretty) which is typically
 distributed as a RubyGem. This is manually kept in sync with releases.
+
+## pinup
+
+See [pinup](https://github.com/Keithbsmiley/pinup-py/)
