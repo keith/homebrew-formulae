@@ -51,3 +51,7 @@ distributed as a RubyGem. This is manually kept in sync with releases.
 ## pinup
 
 See [pinup](https://github.com/Keithbsmiley/pinup-py/)
+
+## zap
+
+See [zap](https://github.com/Keithbsmiley/zap/)
