@@ -3,12 +3,12 @@
 Some homebrew formula for distribution or fixes
 
 ```
-brew tap Keithbsmiley/formulae
+brew tap keith/formulae
 ```
 
 ## marooned
 
-See [marooned](https://github.com/Keithbsmiley/marooned/)
+See [marooned](https://github.com/keith/marooned/)
 
 ## tmux
 In tmux 1.9a there was [a
@@ -34,7 +34,7 @@ PR](https://github.com/Homebrew/homebrew/pull/28724)
 
 ## ghb
 
-See [ghb](https://github.com/Keithbsmiley/ghb)
+See [ghb](https://github.com/keith/ghb)
 
 ## CocoaPods
 
@@ -44,8 +44,8 @@ distributed as a RubyGem. This is manually kept in sync with releases.
 
 ## pinup
 
-See [pinup](https://github.com/Keithbsmiley/pinup-py/)
+See [pinup](https://github.com/keith/pinup-py/)
 
 ## zap
 
-See [zap](https://github.com/Keithbsmiley/zap/)
+See [zap](https://github.com/keith/zap/)

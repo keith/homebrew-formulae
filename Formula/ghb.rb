@@ -1,8 +1,8 @@
 require 'formula'
 
 class Ghb < Formula
-  homepage 'https://github.com/Keithbsmiley/ghb'
-  head 'https://github.com/Keithbsmiley/ghb.git'
+  homepage 'https://github.com/keith/ghb'
+  head 'https://github.com/keith/ghb.git'
 
   depends_on :python
 
