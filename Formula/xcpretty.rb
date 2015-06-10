@@ -19,10 +19,14 @@ end
 
 __END__
 diff --git i/bin/xcpretty w/bin/xcpretty
-index 7b9ed54..a3f0fb2 100755
+index 640b58d..a3f0fb2 100755
 --- i/bin/xcpretty
 +++ w/bin/xcpretty
-@@ -4,9 +4,11 @@ if RUBY_VERSION < '1.8.7'
+@@ -1,12 +1,14 @@
+-#!/usr/bin/env ruby
++#!/usr/bin/env ruby --disable-gems
+
+ if RUBY_VERSION < '1.8.7'
    abort "error: XCPretty requires Ruby 1.8.7 or higher."
  end
 
@@ -36,3 +40,4 @@ index 7b9ed54..a3f0fb2 100755
 +
  require 'xcpretty'
  require 'optparse'
+
