@@ -2,8 +2,8 @@ require 'formula'
 
 class Pinup  < Formula
   homepage 'https://github.com/keith/pinup-py'
-  url 'https://github.com/keith/pinup-py/archive/1.0.0.zip'
-  sha1 '159f0541900472abd4bfbe44b631138eedf8c429'
+  url 'https://github.com/keith/pinup-py/archive/1.0.0.tar.gz'
+  sha1 '9ecf8ff6c9b6a13c58640c75ff824b0d8669fa35'
   head 'https://github.com/keith/pinup-py.git'
 
   depends_on 'python'
