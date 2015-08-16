@@ -49,3 +49,7 @@ See [pinup](https://github.com/keith/pinup-py/)
 ## zap
 
 See [zap](https://github.com/keith/zap/)
+
+## zsh-xcode-completions
+
+See [zsh-xcode-completions](https://github.com/keith/zsh-xcode-completions)
