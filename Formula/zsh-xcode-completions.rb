@@ -1,12 +1,18 @@
 class ZshXcodeCompletions < Formula
   desc "Zsh completions for Xcode command line tools"
   homepage "https://github.com/keith/zsh-xcode-completions/"
-  url "https://github.com/keith/zsh-xcode-completions/archive/1.1.0.tar.gz"
-  sha256 "1e73ec1207d3db4f465fa49e0d9a6577ac5953703cddcb48264ea1a6ed0a9f94"
+  url "https://github.com/keith/zsh-xcode-completions/archive/1.2.0.tar.gz"
+  sha256 "eaabf4868b0a0a5846656d30e325822ac2de0bacb609a40eb9507d0ee09d022c"
 
   head "https://github.com/keith/zsh-xcode-completions.git"
 
+  option "without-shims", "Don't install convenience executables"
+
   def install
+    if build.with? "shims"
+      bin.install Dir["bin/*"]
+    end
+
     zsh_completion.install Dir["src/_*"]
   end
 
