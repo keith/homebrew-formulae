@@ -1,7 +1,7 @@
 class Xcpretty < Formula
   homepage "https://github.com/supermarin/xcpretty"
-  url "https://github.com/supermarin/xcpretty/archive/v0.1.10.tar.gz"
-  sha1 "36e81f576868baf668bd385433716c6069501aff"
+  url "https://github.com/supermarin/xcpretty/archive/v0.1.12.tar.gz"
+  sha1 "5f944d6b365e029fa6e1dfafb54dd34ce472887b"
 
   patch :DATA
 
