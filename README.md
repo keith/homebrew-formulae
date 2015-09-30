@@ -36,6 +36,14 @@ PR](https://github.com/Homebrew/homebrew/pull/28724)
 
 See [ghb](https://github.com/keith/ghb)
 
+## [ghu](https://github.com/pbrisbin/ghu)
+
+This is a script for mutt to automatically unsubscribe from emails which
+include the `List-Unsubscribe` header. This formula is needed for the
+included patch which switches calls of `sed` and `head` to `gsed` and
+`ghead` respectively because of incompatibilities in their interfaces.
+See [ghu](https://github.com/pbrisbin/ghu)
+
 ## CocoaPods
 
 This is an unofficial homebrew installation path for
