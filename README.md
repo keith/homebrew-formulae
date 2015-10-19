@@ -61,3 +61,7 @@ See [zap](https://github.com/keith/zap/)
 ## zsh-xcode-completions
 
 See [zsh-xcode-completions](https://github.com/keith/zsh-xcode-completions)
+
+## lunchy
+
+See [lunchy](https://github.com/eddiezane/lunchy)
