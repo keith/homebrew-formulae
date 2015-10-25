@@ -65,3 +65,7 @@ See [zsh-xcode-completions](https://github.com/keith/zsh-xcode-completions)
 ## lunchy
 
 See [lunchy](https://github.com/eddiezane/lunchy)
+
+## pdmpkeys
+
+See [pdmpkeys](https://github.com/pdixon/pdmpkeys)
