@@ -69,3 +69,7 @@ See [lunchy](https://github.com/eddiezane/lunchy)
 ## pdmpkeys
 
 See [pdmpkeys](https://github.com/pdixon/pdmpkeys)
+
+## gifiate
+
+See [gifiate](https://github.com/keith/gifiate)
