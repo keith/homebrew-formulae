@@ -1,9 +1,9 @@
 require 'formula'
 
 class TmuxMovePatch < Formula
-  homepage 'http://tmux.sourceforge.net'
-  url 'https://downloads.sourceforge.net/project/tmux/tmux/tmux-1.9/tmux-1.9a.tar.gz'
-  sha1 '815264268e63c6c85fe8784e06a840883fcfc6a2'
+  homepage 'https://github.com/tmux/tmux'
+  url 'https://github.com/tmux/tmux/releases/download/1.9a/tmux-1.9a.tar.gz'
+  sha256 'c5e3b22b901cf109b20dab54a4a651f0471abd1f79f6039d79b250d21c2733f5'
 
   head do
     url 'git://git.code.sf.net/p/tmux/tmux-code'

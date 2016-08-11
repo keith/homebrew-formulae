@@ -1,7 +1,7 @@
 class Zap < Formula
   homepage "https://github.com/keith/zap/"
   url "https://github.com/keith/zap/archive/1.0.1.tar.gz"
-  sha1 "69e70c4d370cf5ef798b0a7dd3cb58e81ff6dfee"
+  sha256 "532bc400390e57ebcf210cca6faa44ac02f941e51ed24283f7ad4e044b2f977d"
 
   def install
     bin.install "zap"
