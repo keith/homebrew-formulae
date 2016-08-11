@@ -11,6 +11,9 @@ brew tap keith/formulae
 See [marooned](https://github.com/keith/marooned/)
 
 ## tmux
+
+See [tmux](https://github.com/tmux/tmux/)
+
 In tmux 1.9a there was [a
 patch](http://sourceforge.net/p/tmux/tickets/97/) that changes the way
 navigation works. Instead of going up, down, left, or right it remembers
