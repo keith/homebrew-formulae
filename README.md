@@ -76,3 +76,7 @@ See [pdmpkeys](https://github.com/pdixon/pdmpkeys)
 ## gifiate
 
 See [gifiate](https://github.com/keith/gifiate)
+
+## pinboard
+
+See [pinboard](https://github.com/keith/pinboard)
