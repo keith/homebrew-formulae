@@ -1,7 +1,7 @@
 class Cycript < Formula
   homepage "http://www.cycript.org"
-  url "https://cache.saurik.com/cycript/mac/Cycript_0.9.592.zip"
-  sha256 "05b14dd93bd0a29b8e12d527b52b3898f15d706cdf937c6d9f0897a93fe851b7"
+  url "https://cache.saurik.com/cycript/mac/cycript_0.9.594.zip"
+  sha256 "6e0ded92e03ea44651a26a23158f82d8c939020960fbb3b47102a6b73770d381"
 
   patch :DATA
 
