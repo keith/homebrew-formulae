@@ -1,8 +1,8 @@
 class Pinboard < Formula
   homepage 'https://github.com/keith/pinboard'
   head 'https://github.com/keith/pinboard.git'
-  url 'https://github.com/keith/pinboard/releases/download/1.0.0/pinboard.tar.gz'
-  sha256 'a7b2aadaaffc2ddadbf6da683c0fe1e77e9548f7077d2dc386ee731c62b76fda'
+  url 'https://github.com/keith/pinboard/archive/1.1.0.tar.gz'
+  sha256 '0cca861d6140cfe5149442604e9666ab9516d185ad08ee9739fdbb4cdb9e404d'
 
   depends_on :python
 
