@@ -1,45 +1,31 @@
-# formulae
-
-Some homebrew formula for distribution or fixes
+Some [Homebrew](http://brew.sh/) formula for distribution or fixes
 
 ```
 brew tap keith/formulae
 ```
 
-## marooned
+## formulae
 
-See [marooned](https://github.com/keith/marooned/)
+- [contacts-cli](https://github.com/keith/contacts-cli)
+- [cycript](http://www.cycript.org/)
+- [ghb](https://github.com/keith/ghb)
+- [ghu](https://github.com/pbrisbin/ghu) \*
+- [gifiate](https://github.com/keith/gifiate)
+- [jtool](http://www.newosxbook.com/tools/jtool.html)
+- [lunchy](https://github.com/eddiezane/lunchy)
+- [marooned](https://github.com/keith/marooned/)
+- [pdmpkeys](https://github.com/pdixon/pdmpkeys)
+- [pinboard](https://github.com/keith/pinboard)
+- [reminders-cli](https://github.com/keith/reminders-cli)
+- [swift-doccomment-converter](https://github.com/keith/swift-doccomment-converter)
+- [urlview](https://github.com/keith/urlview) \*
+- [zap](https://github.com/keith/zap/)
+- [zsh-xcode-completions](https://github.com/keith/zsh-xcode-completions)
 
-## tmux
 
-See [tmux](https://github.com/tmux/tmux/)
+## notes
 
-In tmux 1.9a there was [a
-patch](http://sourceforge.net/p/tmux/tickets/97/) that changes the way
-navigation works. Instead of going up, down, left, or right it remembers
-the last window you were at in a split and it takes you back there.
-Personally I find this behavior much more confusing that just navigating
-in the direction I've told it. I submitted this as [an
-issue](http://sourceforge.net/p/tmux/tickets/122/) and was told it would
-be left this way unless a better algorithm was submitted. This edited
-homebrew formula patches the source on install removing this changed
-behavior. Since the tmux formula exists in the master formula install
-with:
-
-```
-brew install tmux-move-patch
-```
-
-## oclint
-
-This spec is pulled directly from [this
-PR](https://github.com/Homebrew/homebrew/pull/28724)
-
-## ghb
-
-See [ghb](https://github.com/keith/ghb)
-
-## [ghu](https://github.com/pbrisbin/ghu)
+### ghu
 
 This is a script for mutt to automatically unsubscribe from emails which
 include the `List-Unsubscribe` header. This formula is needed for the
@@ -47,40 +33,7 @@ included patch which switches calls of `sed` and `head` to `gsed` and
 `ghead` respectively because of incompatibilities in their interfaces.
 See [ghu](https://github.com/pbrisbin/ghu)
 
-## CocoaPods
+### urlview
 
-This is an unofficial homebrew installation path for
-[CocoaPods](https://github.com/CocoaPods/CocoaPods) which is typically
-distributed as a RubyGem. This is manually kept in sync with releases.
-
-## pinup
-
-See [pinup](https://github.com/keith/pinup-py/)
-
-## zap
-
-See [zap](https://github.com/keith/zap/)
-
-## zsh-xcode-completions
-
-See [zsh-xcode-completions](https://github.com/keith/zsh-xcode-completions)
-
-## lunchy
-
-See [lunchy](https://github.com/eddiezane/lunchy)
-
-## pdmpkeys
-
-See [pdmpkeys](https://github.com/pdixon/pdmpkeys)
-
-## gifiate
-
-See [gifiate](https://github.com/keith/gifiate)
-
-## pinboard
-
-See [pinboard](https://github.com/keith/pinboard)
-
-## jtool
-
-See [jtool](http://www.newosxbook.com/tools/jtool.html)
+This [urlview](https://github.com/keith/urlview) formula is for my fork
+which has pcre regex support.
