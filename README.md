@@ -80,3 +80,7 @@ See [gifiate](https://github.com/keith/gifiate)
 ## pinboard
 
 See [pinboard](https://github.com/keith/pinboard)
+
+## jtool
+
+See [jtool](http://www.newosxbook.com/tools/jtool.html)
