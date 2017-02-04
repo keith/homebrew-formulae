@@ -8,7 +8,8 @@ class ContactsCli < Formula
 
   def install
     if build.head?
-      system "make", "install", "PREFIX=#{bin}"
+      bin.mkpath
+      system "make", "install", "PREFIX=#{ bin }"
     else
       bin.install "contacts"
     end
