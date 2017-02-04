@@ -14,6 +14,7 @@ brew tap keith/formulae
 - [jtool](http://www.newosxbook.com/tools/jtool.html)
 - [lunchy](https://github.com/eddiezane/lunchy)
 - [marooned](https://github.com/keith/marooned/)
+- [mkgpx](https://github.com/keith/mkgpx)
 - [pdmpkeys](https://github.com/pdixon/pdmpkeys)
 - [pinboard](https://github.com/keith/pinboard)
 - [reminders-cli](https://github.com/keith/reminders-cli)
