@@ -9,6 +9,7 @@ brew tap keith/formulae
 - [circle-cli](https://github.com/keith/circle-cli)
 - [contacts-cli](https://github.com/keith/contacts-cli)
 - [cycript](http://www.cycript.org/)
+- [extract-section](https://github.com/keith/extract-section)
 - [ghb](https://github.com/keith/ghb)
 - [ghu](https://github.com/pbrisbin/ghu) \*
 - [gifiate](https://github.com/keith/gifiate)
