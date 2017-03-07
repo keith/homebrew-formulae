@@ -1,8 +1,8 @@
 class Ghb < Formula
   homepage 'https://github.com/keith/ghb'
   head 'https://github.com/keith/ghb.git'
-  url 'https://github.com/keith/ghb/archive/1.1.0.tar.gz'
-  sha256 'b1a954427fa1ad16a82114a5dc458fe30979f628bdc722f2addc2f54f5260bdd'
+  url 'https://github.com/keith/ghb/archive/1.2.0.tar.gz'
+  sha256 'd0252e47b3837d414051823cdd04fac56d0e2342549be5915a1547c145dceec1'
 
   depends_on :python
 
