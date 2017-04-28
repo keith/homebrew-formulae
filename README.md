@@ -20,6 +20,7 @@ brew tap keith/formulae
 - [pdmpkeys](https://github.com/pdixon/pdmpkeys)
 - [pinboard](https://github.com/keith/pinboard)
 - [reminders-cli](https://github.com/keith/reminders-cli)
+- [skit](https://github.com/keith/skit)
 - [swift-doccomment-converter](https://github.com/keith/swift-doccomment-converter)
 - [urlview](https://github.com/keith/urlview) \*
 - [zap](https://github.com/keith/zap/)
