@@ -4,7 +4,7 @@ class Ghb < Formula
   url 'https://github.com/keith/ghb/archive/1.2.0.tar.gz'
   sha256 'd0252e47b3837d414051823cdd04fac56d0e2342549be5915a1547c145dceec1'
 
-  depends_on :python
+  depends_on "python"
 
   resource "requests" do
     url "https://pypi.python.org/packages/6e/40/7434b2d9fe24107ada25ec90a1fc646e97f346130a2c51aa6a2b1aba28de/requests-2.12.1.tar.gz"
