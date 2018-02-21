@@ -6,7 +6,7 @@ class ExtractSection < Formula
   sha256 "db5f1cae9f35ade0767a7873961fd35b451b84a2453c141e5d316cb394cda0a8"
 
   depends_on "radare2"
-  depends_on :python
+  depends_on "python"
 
   resource "r2pipe" do
     url "https://pypi.python.org/packages/ea/33/6564663d3f8af41213033cc760fb3823315c1ec38aa6dab877000ddddeff/r2pipe-0.8.9.tar.gz"
