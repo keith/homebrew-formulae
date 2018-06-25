@@ -1,8 +1,8 @@
 class Jtool < Formula
   homepage "http://www.newosxbook.com/tools/jtool.html"
   url "http://www.newosxbook.com/tools/jtool.tar"
-  version "0.9"
-  sha256 "79ff63674e93c2a3de024480af9af2ba402aa97b8528840e97c7013040891108"
+  version "1.0"
+  sha256 "d08b032ffd6f2df93df360b9776d659ee82d43f03bdd55a0c9403b1392fb591e"
 
   def install
     bin.install "jtool"
