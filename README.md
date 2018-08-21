@@ -13,6 +13,7 @@ brew tap keith/formulae
 - [ghb](https://github.com/keith/ghb)
 - [ghu](https://github.com/pbrisbin/ghu) \*
 - [gifiate](https://github.com/keith/gifiate)
+- [git-relative-status](https://github.com/keith/git-relative-status)
 - [jtool](http://www.newosxbook.com/tools/jtool.html)
 - [lunchy](https://github.com/eddiezane/lunchy)
 - [marooned](https://github.com/keith/marooned/)
