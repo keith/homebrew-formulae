@@ -1,8 +1,9 @@
 class Ghb < Formula
+  include Language::Python::Virtualenv
   homepage 'https://github.com/keith/ghb'
   head 'https://github.com/keith/ghb.git'
-  url 'https://github.com/keith/ghb/archive/1.3.0.tar.gz'
-  sha256 '0a13aebf273e7d710e5fc543ba7fbcf963106db481d7a9b2947aa15522fb1e2c'
+  url 'https://github.com/keith/ghb/archive/1.4.0.tar.gz'
+  sha256 'f66988e10ad364b0d9448d842eb3f91128de5c78a5c7b24fcf63cd2380e37698'
 
   depends_on "python"
 
@@ -12,7 +13,7 @@ class Ghb < Formula
   end
 
   def install
-    bin.install Dir['src/*']
+    virtualenv_install_with_resources
     zsh_completion.install 'zsh/_ghb'
   end
 end
