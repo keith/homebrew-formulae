@@ -2,10 +2,10 @@ class Pinboard < Formula
   include Language::Python::Virtualenv
   homepage 'https://github.com/keith/pinboard'
   head 'https://github.com/keith/pinboard.git'
-  url 'https://github.com/keith/pinboard/archive/1.2.0.tar.gz'
-  sha256 '00aabdaa6ec917dfc8ee36ef60f556ec1827944c399d6b6f9842d83fef184750'
+  url 'https://github.com/keith/pinboard/archive/1.3.0.tar.gz'
+  sha256 '3cbac3364fe7742f3f29a2694340a0f4abf6280808097b0e92ab4d9185758d30'
 
-  depends_on "python@2"
+  depends_on "python"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz"
