@@ -2,8 +2,8 @@ class Ghb < Formula
   include Language::Python::Virtualenv
   homepage 'https://github.com/keith/ghb'
   head 'https://github.com/keith/ghb.git'
-  url 'https://github.com/keith/ghb/archive/1.5.0.tar.gz'
-  sha256 '9ff7af228443f3f86acdee5763a8f2c37a92e9a2165167edfeec6d4a4d020dc2'
+  url 'https://github.com/keith/ghb/archive/1.6.0.tar.gz'
+  sha256 '2c2661f0152d039a025066318a4d56ef87629eff25d6bd25a64c9e07f71b2b03'
 
   depends_on "python"
 
