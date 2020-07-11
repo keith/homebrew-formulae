@@ -2,10 +2,10 @@ class Ghb < Formula
   include Language::Python::Virtualenv
   homepage 'https://github.com/keith/ghb'
   head 'https://github.com/keith/ghb.git'
-  url 'https://github.com/keith/ghb/archive/1.6.0.tar.gz'
-  sha256 '2c2661f0152d039a025066318a4d56ef87629eff25d6bd25a64c9e07f71b2b03'
+  url 'https://github.com/keith/ghb/archive/1.7.0.tar.gz'
+  sha256 '314429f2d12c215748b63f27a2c1a108b25415ac6221ab9e602b2a7fc01a5490'
 
-  depends_on "python"
+  depends_on "python@3.8"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz"
