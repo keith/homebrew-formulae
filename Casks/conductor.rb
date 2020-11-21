@@ -5,6 +5,7 @@ cask 'conductor' do
   url "https://github.com/keith/conductor/releases/download/#{version}/Conductor.app.zip"
   appcast 'https://github.com/keith/conductor/releases.atom'
   name 'Conductor'
+  desc 'Write JavaScript to automate moving windows with the keyboard'
   homepage 'https://github.com/keith/conductor'
 
   app 'Conductor.app'
