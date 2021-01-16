@@ -1,6 +1,6 @@
 cask 'copyhistory' do
-  version '0.1.0'
-  sha256 '6531a6e4b38a7294e0e8ff699b937edbe82a0bd4f010a07dc5bdf873fd327651'
+  version '0.1.1'
+  sha256 '96b401faef70fce8829248cc072a5b33d02cd84860a0553d1a06a8f07039fe6a'
 
   url "https://github.com/keith/CopyHistory/releases/download/#{version}/CopyHistory.app.zip"
   appcast 'https://github.com/keith/CopyHistory/releases.atom'
