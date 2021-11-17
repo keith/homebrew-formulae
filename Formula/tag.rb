@@ -2,8 +2,8 @@ class Tag < Formula
   desc "Add shell aliases based on the results of searches"
   homepage "https://github.com/keith/tag"
   head "https://github.com/keith/tag.git", branch: "main"
-  url "https://github.com/keith/tag/archive/refs/tags/0.7.0.tar.gz"
-  sha256 "9dc1494e49d903a77625268a23a6a2ce10bcb53d2d4648528f613ea883115358"
+  url "https://github.com/keith/tag/archive/refs/tags/0.7.1.tar.gz"
+  sha256 "b09c1191fe1a6ddad69919a95f43df450675e7a161a0f5e1fc228cef6ff6c36c"
 
   depends_on "cmake" => :build
 
