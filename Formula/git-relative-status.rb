@@ -1,8 +1,8 @@
 class GitRelativeStatus < Formula
   homepage "https://github.com/keith/git-relative-status"
   head "https://github.com/keith/git-relative-status.git"
-  url "https://github.com/keith/git-relative-status/releases/download/0.3.0/git-relative-status.tar.gz"
-  sha256 "48ba2c3c79ad00b7e8610e3ae794deb8dc4df1ff1279e5d9794f47513b902dc8"
+  url "https://github.com/keith/git-relative-status/releases/download/0.4.0/git-relative-status.tar.gz"
+  sha256 "7fdb0c885c0d697d797da2f0e48e669bde7abc35305862b397c0e58408aae3eb"
 
   depends_on "rust" => :build
 
