@@ -1,10 +1,12 @@
 class Arcanist < Formula
   desc "Command line interface for Phabricator"
   homepage "https://github.com/phacility/arcanist"
-  url "https://github.com/phacility/arcanist/archive/f0f95e5b2612d011592f9dbe1885756c5219c70b.tar.gz"
-  version "f0f95e5b2612d011592f9dbe1885756c5219c70b"
-  sha256 "fd5fe72d760cf9bf3906f1785c816f3557c0cc27ddb2d407cf4f1c08f729a767"
+  url "https://github.com/phacility/arcanist/archive/b50a646a3f49c8b842cf0764c59ea2c38c2f9567.tar.gz"
+  version "b50a646a3f49c8b842cf0764c59ea2c38c2f9567"
+  sha256 "d5c7b63fb27defa182bc910a03619caf9b6b644ac4fa29f117cf21a766048438"
   license "Apache 2.0"
+
+  depends_on "php"
 
   def install
     prefix.install Dir["*"]
