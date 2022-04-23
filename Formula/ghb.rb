@@ -17,11 +17,6 @@ class Ghb < Formula
     sha256 "2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597"
   end
 
-  resource "ghb" do
-    url "https://files.pythonhosted.org/packages/4d/da/9075b860e3b5273b35885bab0cf2eaf0d4da56ad20c8d688433d711d7429/ghb-1.10.0.tar.gz"
-    sha256 "f7255e385e07efc91427f461341e54930f208ed36b2e0bbdc64bc30b3c38108a"
-  end
-
   resource "idna" do
     url "https://files.pythonhosted.org/packages/65/c4/80f97e9c9628f3cac9b98bfca0402ede54e0563b56482e3e6e45c43c4935/idna-2.7.tar.gz"
     sha256 "684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"
