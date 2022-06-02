@@ -6,13 +6,7 @@ class ZshXcodeCompletions < Formula
 
   head "https://github.com/keith/zsh-xcode-completions.git"
 
-  option "without-shims", "Don't install convenience executables"
-
   def install
-    if build.with? "shims"
-      bin.install Dir["bin/*"]
-    end
-
     zsh_completion.install Dir["src/_*"]
   end
 
