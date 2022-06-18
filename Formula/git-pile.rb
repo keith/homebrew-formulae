@@ -6,7 +6,9 @@ class GitPile < Formula
 
   head "https://github.com/keith/git-pile.git"
 
+  depends_on "fzy"
   depends_on "gh"
+  depends_on "python"
 
   def install
     bin.install Dir["bin/*"]
