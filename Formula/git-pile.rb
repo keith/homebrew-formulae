@@ -1,8 +1,8 @@
 class GitPile < Formula
   desc "Stacked diff support for GitHub workflows"
   homepage "https://github.com/keith/git-pile"
-  url "https://github.com/keith/git-pile/archive/refs/tags/0.2.0.tar.gz"
-  sha256 "1e2835d7062ef27f087c7cc2dd0774fe84b94fc2485770d6ec41d44483b1f04b"
+  url "https://github.com/keith/git-pile/archive/refs/tags/0.3.0.tar.gz"
+  sha256 "ca42b0a386102f28a79658c38953553d3c2d2091c6ff5fb1321547a5f1a63e73"
 
   head "https://github.com/keith/git-pile.git"
 
