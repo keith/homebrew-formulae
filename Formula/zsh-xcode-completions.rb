@@ -1,35 +1,31 @@
 class ZshXcodeCompletions < Formula
-  desc "Zsh completions for Xcode command line tools"
+  desc "Zsh completions for Xcode command-line tools"
   homepage "https://github.com/keith/zsh-xcode-completions/"
-  url "https://github.com/keith/zsh-xcode-completions/archive/1.2.1.tar.gz"
-  sha256 "ee3676f7bf68a00d18dc027682cb4f7a0befa8b7d393416cf75f3cbfc3d89f0c"
+  url "https://github.com/keith/zsh-xcode-completions/archive/refs/tags/1.3.0.tar.gz"
+  sha256 "221cb062ab6bbe73bfdff37fb3c1355b4e9b139fe5f0baefae7778552cfed258"
 
   head "https://github.com/keith/zsh-xcode-completions.git"
 
-  option "without-shims", "Don't install convenience executables"
+  depends_on "jq"
 
   def install
-    if build.with? "shims"
-      bin.install Dir["bin/*"]
-    end
-
     zsh_completion.install Dir["src/_*"]
   end
 
   def caveats
     <<~EOS
-    To activate these completions, add the following to your .zshrc:
+      To activate these completions, add the following to your .zshrc:
 
-      fpath=(#{HOMEBREW_PREFIX}/share/zsh/site-functions $fpath)
+        fpath=(#{HOMEBREW_PREFIX}/share/zsh/site-functions $fpath)
 
-    You may also need to force rebuild `zcompdump`:
+      You may also need to force rebuild `zcompdump`:
 
-      rm -f ~/.zcompdump; compinit
+        rm -f ~/.zcompdump; compinit
 
-    Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
-    to load these completions, you may need to run this:
+      Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
+      to load these completions, you may need to run this:
 
-      chmod go-w /usr/local/share
+        chmod go-w #{HOMEBREW_PREFIX}/share
     EOS
   end
 
