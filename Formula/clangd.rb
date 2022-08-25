@@ -1,7 +1,7 @@
 class Clangd < Formula
   homepage "https://clangd.llvm.org"
-  url "https://github.com/clangd/clangd/releases/download/13.0.0/clangd-mac-13.0.0.zip"
-  sha256 "e945174d7203c630c0a6210ac7d47a019a61ecd6a0c1d4e208ecbd5db75befe9"
+  url "https://github.com/clangd/clangd/releases/download/14.0.3/clangd-mac-14.0.3.zip"
+  sha256 "9ad803ab626144e243b921dc2f2f9ecf0cd6c80ded5617c71c17cb79f4bb3887"
 
   def install
     bin.install "bin/clangd"
