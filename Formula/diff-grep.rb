@@ -1,8 +1,8 @@
 class DiffGrep < Formula
   desc "Filter matching hunks in diffs"
   homepage "https://github.com/keith/diff-grep"
-  url "https://github.com/keith/diff-grep/archive/0.1.0.tar.gz"
-  sha256 "3ba5e8356c62e2dd2484e5b6525d113b5477730f726aeb5879c145e4a2af1a7e"
+  url "https://github.com/keith/diff-grep/archive/refs/tags/0.2.0.tar.gz"
+  sha256 "5dc7f372b04b0ce46f0ca3c7aca80c32c74b161c5c43e67c8973cc08f8450fd0"
   head "https://github.com/keith/diff-grep.git"
 
   depends_on "rust" => :build
