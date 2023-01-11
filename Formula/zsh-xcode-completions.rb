@@ -1,8 +1,8 @@
 class ZshXcodeCompletions < Formula
   desc "Zsh completions for Xcode command-line tools"
   homepage "https://github.com/keith/zsh-xcode-completions/"
-  url "https://github.com/keith/zsh-xcode-completions/archive/refs/tags/1.3.0.tar.gz"
-  sha256 "221cb062ab6bbe73bfdff37fb3c1355b4e9b139fe5f0baefae7778552cfed258"
+  url "https://github.com/keith/zsh-xcode-completions/archive/refs/tags/1.4.0.tar.gz"
+  sha256 "47049ce6a55c7e3a91c56a0dc5d884c8a46308a61e325c99e311aa493173d92b"
 
   head "https://github.com/keith/zsh-xcode-completions.git"
 
