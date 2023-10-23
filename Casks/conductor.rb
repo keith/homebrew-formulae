@@ -3,10 +3,6 @@ cask 'conductor' do
   sha256 '0059f0026cebf1d6354ddadc67ff34ed45df312b25c0b62208c713d3ee7515b0'
 
   url "https://github.com/keith/conductor/releases/download/#{version}/Conductor.app.zip"
-  livecheck do
-    url 'https://github.com/keith/conductor/releases.atom'
-    strategy: :sparkle
-  end
 
   name 'Conductor'
   desc 'Write JavaScript to automate moving windows with the keyboard'
