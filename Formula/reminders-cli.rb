@@ -1,7 +1,7 @@
 class RemindersCli < Formula
   homepage "https://github.com/keith/reminders-cli"
   url "https://github.com/keith/reminders-cli/releases/download/2.5.0/reminders.tar.gz"
-  sha256 "41c8a6319e358f414061d65e5ab63359898ffee39b529d5fc5f8b9c62b971c7c"
+  sha256 "ea67770c9f2149b87c68c6aaf948f48df01606087b58d0c4883af6e7e74ba7b0"
 
   def install
     bin.install "reminders"
