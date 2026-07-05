@@ -1,8 +1,8 @@
 cask 'conductor' do
-  version '1.5.0'
-  sha256 '0059f0026cebf1d6354ddadc67ff34ed45df312b25c0b62208c713d3ee7515b0'
+  version '1.5.2'
+  sha256 'fc4cdd8963d0de970920400a478ca4cf63ff46664c27305d50d5f1ff675dd4ff'
 
-  url "https://github.com/keith/conductor/releases/download/#{version}/Conductor.app.zip"
+  url "https://github.com/keith/conductor/releases/download/#{version}/Conductor.zip"
 
   name 'Conductor'
   desc 'Write JavaScript to automate moving windows with the keyboard'
