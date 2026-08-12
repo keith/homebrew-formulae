@@ -1,8 +1,8 @@
 class ContactsCli < Formula
   homepage "https://github.com/keith/contacts-cli"
   head "https://github.com/keith/contacts-cli.git"
-  url "https://github.com/keith/contacts-cli/releases/download/1.1.1/contacts.tar.gz"
-  sha256 "1dec757046ae91d1933bd87610f69d26b2d16ba91f2ce26527cfe0ad9a975e38"
+  url "https://github.com/keith/contacts-cli/releases/download/1.2.0/contacts.tar.gz"
+  sha256 "4509ecdb56c5c53693cda13f982e8d59ca690ecaf2e77dd19db00ad2bb4999d6"
 
   conflicts_with "contacts", because: "contacts also ships a `contacts` binary"
 
