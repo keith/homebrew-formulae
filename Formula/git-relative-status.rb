@@ -8,7 +8,7 @@ class GitRelativeStatus < Formula
 
   def install
     if build.head?
-      system "cargo", "install", "--root", prefix
+      system "cargo", "install", *std_cargo_args
     else
       bin.install "git-relative-status"
     end
