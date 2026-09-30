@@ -6,6 +6,7 @@ brew tap keith/formulae
 
 ## formulae
 
+- [bdiff](https://github.com/keith/bdiff)
 - [circle-cli](https://github.com/keith/circle-cli)
 - [contacts-cli](https://github.com/keith/contacts-cli)
 - [cycript](http://www.cycript.org/)
