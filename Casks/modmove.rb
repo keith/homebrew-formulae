@@ -1,6 +1,6 @@
 cask 'modmove' do
-  version '1.1.1'
-  sha256 '81b9cd96050b6bffecccb1ec6ef590a4fc0225c86e96de0a67a482b80c241bf7'
+  version '1.1.2'
+  sha256 '6fd6a9929f0e4c5179275c2fa78443baa779300c53ef91113a651d9bf2b25584'
 
   url "https://github.com/keith/modmove/releases/download/#{version}/ModMove.app.zip"
 
